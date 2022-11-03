@@ -1,3 +1,5 @@
+import pancakesImg from "./images/pancakes.jpg";
+
 export function home(){
     //navigation bar
     const navbar = document.querySelector('#navbar');
@@ -31,7 +33,7 @@ export function home(){
 
     //main image
     const mainImg = document.createElement('img');
-    mainImg.src = "../src/images/pancakes.jpg"
+    mainImg.src = pancakesImg;
     content.appendChild(mainImg);
 
     //description
